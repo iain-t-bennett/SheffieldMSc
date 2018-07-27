@@ -1,0 +1,446 @@
+\begin{thebibliography}{49}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem[{Ananthakrishnan and Menon(2013)}]{DesignOnco2013}
+Ananthakrishnan, R. and Menon, S. (2013) Design of oncology clinical trials: A
+  review.
+\newblock \emph{Critical Reviews in Oncology/Hematology}, \textbf{88},
+  144--153.
+\newblock \doi{10.1016/j.critrevonc.2013.03.007}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1016/j.critrevonc.2013.03.007}.
+
+\bibitem[{Austin(2012)}]{Austin2012}
+Austin, P.C. (2012) Generating survival times to simulate cox proportional
+  hazards models with time-varying covariates.
+\newblock \emph{Statistics in Medicine}, \textbf{31}, 3946--3958.
+\newblock \doi{10.1002/sim.5452}.
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3546387/}.
+
+\bibitem[{Bender \emph{et~al.}(2005)Bender, Augustin and Blettner}]{Bender2005}
+Bender, R., Augustin, T. and Blettner, M. (2005) Generating survival times to
+  simulate cox proportional hazards models.
+\newblock \emph{Statistics in Medicine}, \textbf{24}.
+\newblock \doi{10.1002/sim.2059}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1002/sim.2059}.
+
+\bibitem[{Branson and Whitehead(2002)}]{Branson2002}
+Branson, M. and Whitehead, J. (2002) Estimating a treatment effect in survival
+  studies in which patients switch treatment.
+\newblock \emph{Statistics in Medicine}, \textbf{21}, 2449--2463.
+\newblock \doi{10.1002/sim.1219}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1002/sim.1219}.
+
+\bibitem[{Burton \emph{et~al.}(2006)Burton, Altman, Royston and
+  Holder}]{Burton2006}
+Burton, A., Altman, D.G., Royston, P. and Holder, R.L. (2006) The design of
+  simulation studies in medical statistics.
+\newblock \emph{Statistics in Medicine}, \textbf{25}, 4279--4292.
+\newblock \doi{10.1002/sim.2673}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1002/sim.2673}.
+
+\bibitem[{Burzykowski \emph{et~al.}(2008)Burzykowski, Buyse, Piccart-Gebhart,
+  Sledge, Carmichael, Luck, Mackey, Nabholtz, Paridaens, Biganzoli, Jassem,
+  Bontenbal, Bonneterre, Chan, Basaran and Therasse}]{Burzykowski2008}
+Burzykowski, T., Buyse, M., Piccart-Gebhart, M.J., Sledge, G., Carmichael, J.,
+  Luck, H.J., Mackey, J.R., Nabholtz, J.M., Paridaens, R., Biganzoli, L.,
+  Jassem, J., Bontenbal, M., Bonneterre, J., Chan, S., Basaran, G.A. and
+  Therasse, P. (2008) Evaluation of tumor response, disease control,
+  progression-free survival, and time to progression as potential surrogate end
+  points in metastatic breast cancer.
+\newblock \emph{Journal of Clinical Oncology}, \textbf{26}, 1987--1992.
+\newblock \doi{10.1200/jco.2007.10.8407}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1200/JCO.2007.10.8407}.
+
+\bibitem[{Burzykowski \emph{et~al.}(2001)Burzykowski, Molenberghs, Buyse, Geys
+  and Renard}]{Burzykowski2001}
+Burzykowski, T., Molenberghs, G., Buyse, M., Geys, H. and Renard, D. (2001)
+  Validation of surrogate end points in multiple randomized clinical trials
+  with failure time end points.
+\newblock \emph{J Royal Statistical Soc C}, \textbf{50}, 405--422.
+\newblock \doi{10.1111/1467-9876.00244}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1111/1467-9876.00244}.
+
+\bibitem[{Buyse(2000)}]{Buyse2000}
+Buyse, M. (2000) The validation of surrogate endpoints in meta-analyses of
+  randomized experiments.
+\newblock \emph{Biostatistics}, \textbf{1}, 49--67.
+\newblock \doi{10.1093/biostatistics/1.1.49}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1093/biostatistics/1.1.49}.
+
+\bibitem[{Buyse \emph{et~al.}(2007)Buyse, Burzykowski, Carroll, Michiels,
+  Sargent, Miller, Elfring, Pignon and Piedbois}]{Buyse2007}
+Buyse, M., Burzykowski, T., Carroll, K., Michiels, S., Sargent, D.J., Miller,
+  L.L., Elfring, G.L., Pignon, J.P. and Piedbois, P. (2007) Progression-free
+  survival is a surrogate for survival in advanced colorectal cancer.
+\newblock \emph{Journal of Clinical Oncology}, \textbf{25}, 5218--5224.
+\newblock \doi{10.1200/jco.2007.11.8836}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1200/JCO.2007.11.8836}.
+
+\bibitem[{Chapman \emph{et~al.}(2011)Chapman, Hauschild, Robert, Haanen,
+  Ascierto, Larkin, Dummer, Garbe, Testori, Maio, Hogg, Lorigan, Lebbe, Jouary,
+  Schadendorf, Ribas, O'Day, Sosman, Kirkwood, Eggermont, Dreno, Nolop, Li,
+  Nelson, Hou, Lee, Flaherty and McArthur}]{BRIM3}
+Chapman, P.B., Hauschild, A., Robert, C., Haanen, J.B., Ascierto, P., Larkin,
+  J., Dummer, R., Garbe, C., Testori, A., Maio, M., Hogg, D., Lorigan, P.,
+  Lebbe, C., Jouary, T., Schadendorf, D., Ribas, A., O'Day, S.J., Sosman, J.A.,
+  Kirkwood, J.M., Eggermont, A.M., Dreno, B., Nolop, K., Li, J., Nelson, B.,
+  Hou, J., Lee, R.J., Flaherty, K.T. and McArthur, G.A. (2011) Improved
+  survival with vemurafenib in melanoma with {BRAF} v600e mutation.
+\newblock \emph{New England Journal of Medicine}, \textbf{364}, 2507--2516.
+\newblock \doi{10.1056/nejmoa1103782}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1056/NEJMoa1103782}.
+
+\bibitem[{Ciani \emph{et~al.}(2014)Ciani, Davis, Tappenden, Garside, Stein,
+  Cantrell, Saad, Buyse and Taylor}]{Ciani2014}
+Ciani, O., Davis, S., Tappenden, P., Garside, R., Stein, K., Cantrell, A.,
+  Saad, E.D., Buyse, M. and Taylor, R.S. (2014) {VALIDATION} {OF} {SURROGATE}
+  {ENDPOINTS} {IN} {ADVANCED} {SOLID} {TUMORS}: {SYSTEMATIC} {REVIEW} {OF}
+  {STATISTICAL} {METHODS}, {RESULTS}, {AND} {IMPLICATIONS} {FOR} {POLICY}
+  {MAKERS}.
+\newblock \emph{International Journal of Technology Assessment in Health Care},
+  \textbf{30}, 312--324.
+\newblock \doi{10.1017/s0266462314000300}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1017/S0266462314000300}.
+
+\bibitem[{Cole and Hernan(2008)}]{Cole2008}
+Cole, S.R. and Hernan, M.A. (2008) Constructing inverse probability weights for
+  marginal structural models.
+\newblock \emph{American Journal of Epidemiology}, \textbf{168}, 656--664.
+\newblock \doi{10.1093/aje/kwn164}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1093/aje/kwn164}.
+
+\bibitem[{Collett(2003)}]{collett}
+Collett, D. (2003) \emph{Modelling Survival Data in Medical Research}.
+\newblock New York: Chapman \& Hall/CRC.
+
+\bibitem[{Eisenhauer \emph{et~al.}(2009)Eisenhauer, Therasse, Bogaerts,
+  Schwartz, Sargent, Ford, Dancey, Arbuck, Gwyther, Mooney, Rubinstein,
+  Shankar, Dodd, Kaplan, Lacombe and Verweij}]{RECIST11}
+Eisenhauer, E., Therasse, P., Bogaerts, J., Schwartz, L., Sargent, D., Ford,
+  R., Dancey, J., Arbuck, S., Gwyther, S., Mooney, M., Rubinstein, L., Shankar,
+  L., Dodd, L., Kaplan, R., Lacombe, D. and Verweij, J. (2009) New response
+  evaluation criteria in solid tumours: Revised {RECIST} guideline (version
+  1.1).
+\newblock \emph{European Journal of Cancer}, \textbf{45}, 228--247.
+\newblock \doi{10.1016/j.ejca.2008.10.026}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1016/j.ejca.2008.10.026}.
+
+\bibitem[{Fewell \emph{et~al.}(2004)Fewell, Hernan, Wolfe, Tilling, Choi and
+  Sterne}]{Fewell2004}
+Fewell, Z., Hernan, M.A., Wolfe, F., Tilling, K., Choi, H. and Sterne, J.A.C.
+  (2004) Controlling for time-dependent confounding using marginal structural
+  models.
+\newblock \emph{Stata Journal}, \textbf{4}, 402--420.
+\newblock
+  \urlprefix\url{http://www.stata-journal.com/article.html?article=st0075}.
+
+\bibitem[{Green \emph{et~al.}(2008)Green, Yothers and Sargent}]{Green2008}
+Green, E., Yothers, G. and Sargent, D.J. (2008) Surrogate endpoint validation:
+  statistical elegance versus clinical relevance.
+\newblock \emph{Statistical Methods in Medical Research}, \textbf{17},
+  477--486.
+\newblock \doi{10.1177/0962280207081863}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1177/0962280207081863}.
+
+\bibitem[{Halabi \emph{et~al.}(2009)Halabi, Vogelzang, Ou, Owzar, Archer and
+  Small}]{Halabi2009}
+Halabi, S., Vogelzang, N.J., Ou, S.S., Owzar, K., Archer, L. and Small, E.J.
+  (2009) Progression-free survival as a predictor of overall survival in men
+  with castrate-resistant prostate cancer.
+\newblock \emph{Journal of Clinical Oncology}, \textbf{27}, 2766--2771.
+\newblock \doi{10.1200/jco.2008.18.9159}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1200/JCO.2008.18.9159}.
+
+\bibitem[{Hauschild \emph{et~al.}(2012)Hauschild, Grob, Demidov, Jouary,
+  Gutzmer, Millward, Rutkowski, Blank, Miller, Kaempgen, Mart{\'{\i}}n-Algarra,
+  Karaszewska, Mauch, Chiarion-Sileni, Martin, Swann, Haney, Mirakhur, Guckert,
+  Goodman and Chapman}]{BREAK3}
+Hauschild, A., Grob, J.J., Demidov, L.V., Jouary, T., Gutzmer, R., Millward,
+  M., Rutkowski, P., Blank, C.U., Miller, W.H., Kaempgen, E.,
+  Mart{\'{\i}}n-Algarra, S., Karaszewska, B., Mauch, C., Chiarion-Sileni, V.,
+  Martin, A.M., Swann, S., Haney, P., Mirakhur, B., Guckert, M.E., Goodman, V.
+  and Chapman, P.B. (2012) Dabrafenib in {BRAF}-mutated metastatic melanoma: a
+  multicentre, open-label, phase 3 randomised controlled trial.
+\newblock \emph{The Lancet}, \textbf{380}, 358--365.
+\newblock \doi{10.1016/s0140-6736(12)60868-x}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1016/S0140-6736(12)60868-X}.
+
+\bibitem[{Heng \emph{et~al.}(2010)Heng, Xie, Bjarnason, Vaishampayan, Tan,
+  Knox, Donskov, Wood, Kollmannsberger, Rini and Choueiri}]{Heng2010}
+Heng, D.Y.C., Xie, W., Bjarnason, G.A., Vaishampayan, U., Tan, M.H., Knox, J.,
+  Donskov, F., Wood, L., Kollmannsberger, C., Rini, B.I. and Choueiri, T.K.
+  (2010) Progression-free survival as a predictor of overall survival in
+  metastatic renal cell carcinoma treated with contemporary targeted therapy.
+\newblock \emph{Cancer}, \textbf{117}, 2637--2642.
+\newblock \doi{10.1002/cncr.25750}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1002/cncr.25750}.
+
+\bibitem[{Hernan \emph{et~al.}(2000)Hernan, Brumback and Robins}]{Hernan2000}
+Hernan, M.A., Brumback, B. and Robins, J.M. (2000) {{M}arginal structural
+  models to estimate the causal effect of zidovudine on the survival of
+  {H}{I}{V}-positive men}.
+\newblock \emph{Epidemiology}, \textbf{11}, 561--570.
+
+\bibitem[{Korhonen \emph{et~al.}(2012)Korhonen, Zuber, Branson, Hollaender,
+  Yateman, Katiskalahti, Lebwohl and Haas}]{KorhonenRECORD}
+Korhonen, P., Zuber, E., Branson, M., Hollaender, N., Yateman, N.,
+  Katiskalahti, T., Lebwohl, D. and Haas, T. (2012) Correcting overall survival
+  for the impact of crossover via a rank-preserving structural failure time
+  {(RPSFT)} model in the {RECORD}-1 trial of everolimus in metastatic
+  renal-cell carcinoma.
+\newblock \emph{Journal of Biopharmaceutical Statistics}, \textbf{22},
+  1258--1271.
+\newblock \doi{10.1080/10543406.2011.592233}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1080/10543406.2011.592233}, pMID:
+  23075021.
+
+\bibitem[{Korhonen \emph{et~al.}(1999)Korhonen, Laird and
+  Palmgren}]{KorhonenATBC}
+Korhonen, P.A., Laird, N.M. and Palmgren, J. (1999) Correcting for
+  non-compliance in randomized trials: an application to the {ATBC} study.
+\newblock \emph{Statistics in Medicine}, \textbf{18}, 2879--2897.
+\newblock
+  \doi{10.1002/(SICI)1097-0258(19991115)18:21<2879::AID-SIM190>3.0.CO;2-K}.
+\newblock
+  \urlprefix\url{http://dx.doi.org/10.1002/(SICI)1097-0258(19991115)18:21<2879::AID-SIM190>3.0.CO;2-K}.
+
+\bibitem[{Krop \emph{et~al.}(2014)Krop, Kim, Gonz{\'{a}}lez-Mart{\'{\i}}n,
+  LoRusso, Ferrero, Smitt, Yu, Leung and Wildiers}]{TH3RESA}
+Krop, I.E., Kim, S.B., Gonz{\'{a}}lez-Mart{\'{\i}}n, A., LoRusso, P.M.,
+  Ferrero, J.M., Smitt, M., Yu, R., Leung, A.C.F. and Wildiers, H. (2014)
+  Trastuzumab emtansine versus treatment of physician's choice for pretreated
+  {HER}2-positive advanced breast cancer ({TH}3resa): a randomised, open-label,
+  phase 3 trial.
+\newblock \emph{The Lancet Oncology}, \textbf{15}, 689--699.
+\newblock \doi{10.1016/s1470-2045(14)70178-0}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1016/S1470-2045(14)70178-0}.
+
+\bibitem[{Latimer(2011)}]{TSD14}
+Latimer, N. (2011) {NICE} {DSU} technical support document 14: Undertaking
+  survival analysis for economic evaluations alongside clinical trials -
+  extrapolation with patient-level data.
+\newblock \urlprefix\url{http://www.nicedsu.org.uk}.
+
+\bibitem[{Latimer and Abrams(2014)}]{TSD16}
+Latimer, N. and Abrams, K. (2014) {NICE} {DSU} technical support document 16:
+  Adjusting survival time estimates in the presence of treatment switching.
+\newblock \urlprefix\url{http://www.nicedsu.org.uk}.
+
+\bibitem[{Latimer \emph{et~al.}(2014{\natexlab{\emph{a}}})Latimer, Abrams,
+  Lambert, Crowther, Wailoo, Morden, Akehurst and Campbell}]{Latimer2013}
+Latimer, N.R., Abrams, K., Lambert, P., Crowther, M., Wailoo, A., Morden, J.,
+  Akehurst, R. and Campbell, M. (2014{\natexlab{\emph{a}}}) Adjusting for
+  treatment switching in randomised controlled trials - a simulation study and
+  a simplified two-stage method.
+\newblock \emph{Statistical Methods in Medical Research}.
+\newblock \doi{10.1177/0962280214557578}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1177/0962280214557578}.
+
+\bibitem[{Latimer \emph{et~al.}(2016)Latimer, Abrams, Lambert, Morden and
+  Crowther}]{Latimer2016}
+Latimer, N.R., Abrams, K.R., Lambert, P.C., Morden, J.P. and Crowther, M.J.
+  (2016) Assessing methods for dealing with treatment switching in clinical
+  trials: A follow-up simulation study.
+\newblock \emph{Statistical Methods in Medical Research}.
+\newblock \doi{10.1177/0962280216642264}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1177/0962280216642264}.
+
+\bibitem[{Latimer \emph{et~al.}(2014{\natexlab{\emph{b}}})Latimer, Abrams,
+  Lambert, Crowther, Wailoo, Morden, Akehurst and Campbell}]{Latimer2014}
+Latimer, N.R., Abrams, K.R., Lambert, P.C., Crowther, M.J., Wailoo, A.J.,
+  Morden, J.P., Akehurst, R.L. and Campbell, M.J. (2014{\natexlab{\emph{b}}})
+  Adjusting survival time estimates to account for treatment switching in
+  randomized controlled trials - an economic evaluation context: Methods,
+  limitations, and recommendations.
+\newblock \emph{Medical Decision Making}, \textbf{34}, 387--402.
+\newblock \doi{10.1177/0272989X13520192}.
+\newblock \urlprefix\url{http://mdm.sagepub.com/content/34/3/387.abstract}.
+
+\bibitem[{Leon \emph{et~al.}(2014)Leon, Golsorkhi, Liu, Drozdowskyj and
+  Rosell}]{Leon2014}
+Leon, L., Golsorkhi, A., Liu, S., Drozdowskyj, A. and Rosell, R. (2014) {1273P}
+  overall survival analyses of first-line erlotinib versus chemotherapy in the
+  eurtac study population controlling for the use of post-study therapy.
+\newblock \emph{Annals of Oncology}, \textbf{25}, iv447--iv448.
+\newblock \doi{10.1093/annonc/mdu349.52}.
+\newblock
+  \urlprefix\url{http://annonc.oxfordjournals.org/content/25/suppl_4/iv447.3.abstract}.
+
+\bibitem[{McArthur \emph{et~al.}(2014)McArthur, Chapman, Robert, Larkin,
+  Haanen, Dummer, Ribas, Hogg, Hamid, Ascierto, Garbe, Testori, Maio, Lorigan,
+  Lebb{\'{e}}, Jouary, Schadendorf, O'Day, Kirkwood, Eggermont, Dr{\'{e}}no,
+  Sosman, Flaherty, Yin, Caro, Cheng, Trunzer and Hauschild}]{BRIM3UPDATE}
+McArthur, G.A., Chapman, P.B., Robert, C., Larkin, J., Haanen, J.B., Dummer,
+  R., Ribas, A., Hogg, D., Hamid, O., Ascierto, P.A., Garbe, C., Testori, A.,
+  Maio, M., Lorigan, P., Lebb{\'{e}}, C., Jouary, T., Schadendorf, D., O'Day,
+  S.J., Kirkwood, J.M., Eggermont, A.M., Dr{\'{e}}no, B., Sosman, J.A.,
+  Flaherty, K.T., Yin, M., Caro, I., Cheng, S., Trunzer, K. and Hauschild, A.
+  (2014) Safety and efficacy of vemurafenib in {BRAFV}600e and {BRAFV}600k
+  mutation-positive melanoma ({BRIM}-3): extended follow-up of a phase 3,
+  randomised, open-label study.
+\newblock \emph{The Lancet Oncology}, \textbf{15}, 323--332.
+\newblock \doi{10.1016/s1470-2045(14)70012-9}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1016/S1470-2045(14)70012-9}.
+
+\bibitem[{Mehta \emph{et~al.}(2014)Mehta, Sonpavde and Escudier}]{TIVO1}
+Mehta, A., Sonpavde, G. and Escudier, B. (2014) Tivozanib for the treatment of
+  renal cell carcinoma: results and implications of the {TIVO}-1 trial.
+\newblock \emph{Future Oncology}, \textbf{10}, 1819--1826.
+\newblock \doi{10.2217/fon.14.120}.
+\newblock \urlprefix\url{http://dx.doi.org/10.2217/FON.14.120}.
+
+\bibitem[{Morden \emph{et~al.}(2011)Morden, Lambert, Latimer, Abrams and
+  Wailoo}]{Morden2011}
+Morden, J.P., Lambert, P.C., Latimer, N., Abrams, K.R. and Wailoo, A.J. (2011)
+  Assessing methods for dealing with treatment switching in randomised
+  controlled trials: a simulation study.
+\newblock \emph{BMC Medical Research Methodology}, \textbf{11}, 1--20.
+\newblock \doi{10.1186/1471-2288-11-4}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1186/1471-2288-11-4}.
+
+\bibitem[{Motzer \emph{et~al.}(2008)Motzer, Escudier, Oudard, Hutson, Porta,
+  Bracarda, Gr\"{u}nwald, Thompson, Figlin, Hollaender, Urbanowitz, Berg, Kay,
+  Lebwohl and Ravaud}]{RECORD1}
+Motzer, R.J., Escudier, B., Oudard, S., Hutson, T.E., Porta, C., Bracarda, S.,
+  Gr\"{u}nwald, V., Thompson, J.A., Figlin, R.A., Hollaender, N., Urbanowitz,
+  G., Berg, W.J., Kay, A., Lebwohl, D. and Ravaud, A. (2008) Efficacy of
+  everolimus in advanced renal cell carcinoma: a double-blind, randomised,
+  placebo-controlled phase {III} trial.
+\newblock \emph{The Lancet}, \textbf{372}, 449--456.
+\newblock \doi{10.1016/s0140-6736(08)61039-9}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1016/S0140-6736(08)61039-9}.
+
+\bibitem[{{PBAC}(2012)}]{PBAC2011}
+{PBAC} (2012) \emph{Public Summary Document July 2012}.
+\newblock
+  \urlprefix\url{http://www.pbs.gov.au/info/industry/listing/elements/pbac-meetings/psd/2012-07/erlotinib}.
+
+\bibitem[{Prasad and Grady(2014)}]{Prasad2014}
+Prasad, V. and Grady, C. (2014) The misguided ethics of crossover trials.
+\newblock \emph{Contemporary Clinical Trials}, \textbf{37}, 167--169.
+\newblock \doi{10.1016/j.cct.2013.12.003}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1016/j.cct.2013.12.003}.
+
+\bibitem[{{R Core Team}(2016)}]{Rsoftware}
+{R Core Team} (2016) \emph{{R}: A Language and Environment for Statistical
+  Computing}.
+\newblock R Foundation for Statistical Computing, Vienna, Austria.
+\newblock \urlprefix\url{https://www.R-project.org/}.
+
+\bibitem[{Robert \emph{et~al.}(2015)Robert, Karaszewska, Schachter, Rutkowski,
+  Mackiewicz, Stroiakovski, Lichinitser, Dummer, Grange, Mortier,
+  Chiarion-Sileni, Drucis, Krajsova, Hauschild, Lorigan, Wolter, Long,
+  Flaherty, Nathan, Ribas, Martin, Sun, Crist, Legos, Rubin, Little and
+  Schadendorf}]{COMBIV}
+Robert, C., Karaszewska, B., Schachter, J., Rutkowski, P., Mackiewicz, A.,
+  Stroiakovski, D., Lichinitser, M., Dummer, R., Grange, F., Mortier, L.,
+  Chiarion-Sileni, V., Drucis, K., Krajsova, I., Hauschild, A., Lorigan, P.,
+  Wolter, P., Long, G.V., Flaherty, K., Nathan, P., Ribas, A., Martin, A.M.,
+  Sun, P., Crist, W., Legos, J., Rubin, S.D., Little, S.M. and Schadendorf, D.
+  (2015) Improved overall survival in melanoma with combined dabrafenib and
+  trametinib.
+\newblock \emph{New England Journal of Medicine}, \textbf{372}, 30--39.
+\newblock \doi{10.1056/nejmoa1412690}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1056/NEJMoa1412690}.
+
+\bibitem[{Robins and Tsiatis(1991)}]{Robins1991}
+Robins, J.M. and Tsiatis, A.A. (1991) Correcting for non-compliance in
+  randomized trials using rank preserving structural failure time models.
+\newblock \emph{Communications in Statistics-Theory and Methods}, \textbf{20}.
+\newblock \doi{10.1080/03610929108830654}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1080/03610929108830654}.
+
+\bibitem[{Robins and Finkelstein(2000)}]{Robins2000}
+Robins, J.M. and Finkelstein, D.M. (2000) Correcting for noncompliance and
+  dependent censoring in an {AIDS} clinical trial with inverse probability of
+  censoring weighted {(IPCW)} log-rank tests.
+\newblock \emph{Biometrics}, \textbf{56}, 779--788.
+\newblock \doi{10.1111/j.0006-341X.2000.00779.x}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1111/j.0006-341X.2000.00779.x}.
+
+\bibitem[{Schemper(1992)}]{Schemper1992}
+Schemper, M. (1992) Cox analysis of survival data with non-proportional hazard
+  functions.
+\newblock \emph{The Statistician}, \textbf{41}, 455.
+\newblock \doi{10.2307/2349009}.
+\newblock \urlprefix\url{http://dx.doi.org/10.2307/2349009}.
+
+\bibitem[{Slaets and Jan(2013)}]{Slaets2013}
+Slaets, L. and Jan, B. (2013) One-way optional crossover: biases and analysis
+  approaches.
+\newblock
+  \urlprefix\url{https://www.efspi.org/documents/activities/international%20events/10leenslaetsjanbogaerts.pdf},
+  november 2013 European Statistical Meeting on Survival analysis and its
+  applications in drug development.
+
+\bibitem[{Verma \emph{et~al.}(2012)Verma, Miles, Gianni, Krop, Welslau,
+  Baselga, Pegram, Oh, Di{\'{e}}ras, Guardino, Fang, Lu, Olsen and
+  Blackwell}]{EMILIA}
+Verma, S., Miles, D., Gianni, L., Krop, I.E., Welslau, M., Baselga, J., Pegram,
+  M., Oh, D.Y., Di{\'{e}}ras, V., Guardino, E., Fang, L., Lu, M.W., Olsen, S.
+  and Blackwell, K. (2012) Trastuzumab emtansine for {HER}2-positive advanced
+  breast cancer.
+\newblock \emph{New England Journal of Medicine}, \textbf{367}, 1783--1791.
+\newblock \doi{10.1056/nejmoa1209124}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1056/NEJMoa1209124}.
+
+\bibitem[{Watkins \emph{et~al.}(2013)Watkins, Huang, Latimer, Tang and
+  Wright}]{Watkins2013}
+Watkins, C., Huang, X., Latimer, N., Tang, Y. and Wright, E.J. (2013) Adjusting
+  overall survival for treatment switches: commonly used methods and practical
+  application.
+\newblock \emph{Pharmaceutical Statistics}, \textbf{12}, 348--357.
+\newblock \doi{10.1002/pst.1602}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1002/pst.1602}.
+
+\bibitem[{White(2014)}]{White2014}
+White, I.R. (2014) Handling treatment changes in randomized trials.
+\newblock \urlprefix\url{http://www.stata.com/meeting/uk14/abstracts/#white},
+  2014 UK Stata Users Group meeting.
+
+\bibitem[{White \emph{et~al.}(1999)White, Babiker, Walker and
+  Darbyshire}]{White1999}
+White, I.R., Babiker, A.G., Walker, S. and Darbyshire, J.H. (1999)
+  Randomization-based methods for correcting for treatment changes: Examples
+  from the {C}oncorde trial.
+\newblock \emph{Statistics in Medicine}, \textbf{18}.
+\newblock \doi{3.0.CO;2-E}.
+\newblock \urlprefix\url{http://dx.doi.org/3.0.CO;2-E}.
+
+\bibitem[{White \emph{et~al.}(2002)White, Walker and Babiker}]{White2002}
+White, I.R., Walker, S. and Babiker, A. (2002) strbee: Randomization-based
+  efficacy estimator.
+\newblock \emph{Stata Journal}, \textbf{2}, 140--150(11).
+\newblock
+  \urlprefix\url{http://www.stata-journal.com/article.html?article=st0012}.
+
+\bibitem[{White(2006)}]{White2006}
+White, I.R. (2006) Estimating treatment effects in randomized trials with
+  treatment switching.
+\newblock \emph{Statistics in Medicine}, \textbf{25}, 1619--1622.
+\newblock \doi{10.1002/sim.2453}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1002/sim.2453}.
+
+\bibitem[{Zhang and Chen(2016)}]{Zhang2016}
+Zhang, J. and Chen, C. (2016) Correcting treatment effect for treatment
+  switching in randomized oncology trials with a modified iterative parametric
+  estimation method.
+\newblock \emph{Statistics in Medicine}, n/a--n/a.
+\newblock \doi{10.1002/sim.6923}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1002/sim.6923}.
+
+\bibitem[{Zhang \emph{et~al.}(2012)Zhang, Ko, Tang and Sridhara}]{Zhang2012}
+Zhang, L., Ko, C.W., Tang, S. and Sridhara, R. (2012) Relationship between
+  progression-free survival and overall survival benefit: A simulation study.
+\newblock \emph{Therapeutic Innovation {\&} Regulatory Science}, \textbf{47},
+  95--100.
+\newblock \doi{10.1177/0092861512459180}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1177/0092861512459180}.
+
+\end{thebibliography}

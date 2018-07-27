@@ -1,0 +1,245 @@
+% We switch to portrait mode. This works as advertised.
+\documentclass[a0,portrait]{a0poster}
+% You might find the 'draft' option to a0 poster useful if you have
+% lots of graphics, because they can take some time to process and
+% display. (\documentclass[a0,draft]{a0poster})
+\usepackage[british]{babel}
+\usepackage{mathtools}
+\usepackage[T1]{fontenc}
+%\usepackage[ansinew]{inputenc} %windows
+\usepackage[applemac]{inputenx} %osX
+
+
+% Set the roman font of your choice
+
+%\renewcommand{\rmdefault}{mdbch}  %Charter
+\renewcommand{\rmdefault}{mdugm}  %Garamond
+%\renewcommand{\rmdefault}{mdfga}  %Garamond
+%\renewcommand{\rmdefault}{mdput}  %Utopia
+%\renewcommand{\rmdefault}{ptm}  %Times
+%\renewcommand{\rmdefault}{lmr}  %Latin modern
+%\renewcommand{\rmdefault}{lm}  %Lucida
+%\renewcommand{\rmdefault}{pplx}  %Palatino
+%\renewcommand{\rmdefault}{pbk}  %Bookman
+%\renewcommand{\rmdefault}{pnc}  %Century
+%\renewcommand{\rmdefault}{engwara}  %txfonts
+
+
+
+\usepackage[scaled=0.92]{helvet,inconsolata}
+\usepackage{xspace}
+\usepackage{subfig}
+\usepackage{amssymb}
+\usepackage{upgreek} 
+% Switch off page numbers on a poster, obviously, and section numbers too.
+\pagestyle{empty}
+\setcounter{secnumdepth}{0}
+
+% The textpos package is necessary to position textblocks at arbitary
+% places on the page.
+\usepackage[absolute]{textpos}
+
+% Graphics to include graphics.
+\usepackage[pdftex]{graphicx}
+
+
+% If you'd like to have text around figures
+% \usepackage{wrapfig}
+
+% These colours are tried and tested for titles and headers. Don't
+% over use color!
+\usepackage{xcolor}
+\definecolor{DarkBlue}{rgb}{0.1,0.1,0.5}
+\definecolor{Red}{rgb}{0.9,0.0,0.1}
+\definecolor{Orange}{cmyk}{0,0.73,1,0}
+
+% see documentation for a0poster class for the size options here
+\let\Textsize\normalsize
+\def\Head#1{\noindent\hbox to \hsize{\hfil{\LARGE\color{DarkBlue} #1}}\bigskip}
+\def\LHead#1{\noindent{\LARGE\color{DarkBlue} #1}\smallskip}
+\def\Subhead#1{\noindent{\large\color{DarkBlue} #1}}
+\def\Title#1{\noindent{\VeryHuge\color{Red} #1}}
+
+% Set up the grid
+%
+% Note that [40mm,40mm] is the margin round the edge of the page --
+% it is _not_ the grid size. That is always defined as
+% PAGE_WIDTH/HGRID and PAGE_HEIGHT/VGRID. In this case we use
+% 15 x 25. This gives us a wide central column for text (7 grid
+% spacings) and two narrow columns (3 each) at each side for
+% pictures, separated by 1 grid spacing.
+%
+% Note however that texblocks can be positioned fractionally as well,
+% so really any convenient grid size can be used.
+%
+\TPGrid[40mm,40mm]{15}{25} 
+
+% Mess with these as you like
+\parindent=0pt
+%\parindent=1cm
+\parskip=0.5\baselineskip
+
+% abbreviations
+%______________________________________________________________________________________________________________
+
+\DeclarePairedDelimiter{\abs}{\lvert}{\rvert} 
+\DeclarePairedDelimiter{\norm}{\lVert}{\rVert}
+\DeclarePairedDelimiterX{\set}[1]\{\}{#1}
+\DeclarePairedDelimiterX\paden[3](){\nonscript #1 \,\delimsize\vert \,\nonscript \mathopen{}#2,#3}
+\DeclarePairedDelimiterX\papro[2][]{\nonscript #1\,\delimsize\vert\,\nonscript \mathopen{}#2}
+\DeclareMathOperator{\E}{\mathbb E} \DeclareMathOperator{\var}{\mathbb V}
+\DeclareMathOperator{\p}{P}
+
+\newcommand{\D}{\mathrm{d}}
+\newcommand{\Real}{\mathbb{R}}
+\newcommand{\nor}[3][x]{\ensuremath{\mathrm N \paden*{#1}{#2}{#3}}}
+\newcommand{\cp}[2]{\ensuremath{\p\papro*{#1}{#2}}}
+
+\newcommand{\bl}[1] {\ensuremath{\mathbf{#1}}\xspace}
+
+%___________________________________________________________________________________________________________________
+% Figures path
+\graphicspath{{Figs/}}
+
+%___________________________________________________________________________________________________________________
+
+\begin{document}
+
+% Understanding textblocks is the key to being able to do a poster in
+% LaTeX. In
+%
+%    \begin{textblock}{wid}(x,y)
+%    ...
+%    \end{textblock}
+%
+% the first argument gives the block width in units of the grid
+% cells specified above in \TPGrid; the second gives the (x,y)
+% position on the grid, with the y axis pointing down.
+
+% You will have to do a lot of previewing to get everything in the
+% right place.
+
+% This gives good title positioning for a portrait poster.
+% Watch out for hyphenation in titles - LaTeX will do it
+% but it looks awful.
+
+
+%_________________ HEADER  _________________________________________
+
+\begin{textblock}{8.5}(0,0) %Title block
+	\baselineskip=3\baselineskip \Title{Some interesting aspects of your dissertation}
+\end{textblock}
+
+\begin{textblock}{15}(0,1.75) %Name and reg block
+	\LHead{Your name \hspace{5cm} \texttt{registration number}}
+\end{textblock}
+
+% Put the UoS logo in the top right.
+\begin{textblock}{3}(10.5,0)
+	\includegraphics[scale=2.2]{tuoslogo_key_cmyk_med.jpg}
+\end{textblock}
+% _________________ HEADER  _________________________________________
+
+
+%________________ An example text block, to get you started! __________________________________
+
+%________ Left hand side ____________________________________
+\begin{textblock}{7}(0,2.5)
+
+	\LHead{Introduction}
+
+	Using time series data, our main objective is the study of genetic regulatory networks. In particular, we are interested on inferring the gene regulatory kinships for a given process.  When stated in a graphical manner such relationships are represented as edges and the genes as nodes;  these edges can be directed or not, and feedback loops and cliques may or may not be allowed.
+
+	We use regression based dynamic Bayesian networks, with $y_i^{t+1} = f_i (\bl y^t) + \varepsilon_i^{t+1}$, where $y_i^{t}$ is the measurement of unit $i = 1, \dots, G$, at time $t = 1, \dots, T$, $\bl y^t = \set{ y_1^t,  y_2^t, \dots, y^t_G}$ and $\varepsilon_i^t$ is an idiosyncratic error term.  The functional forms of the interactions, $f_i(\cdot)$, are usually unknown.  Whether $\partial y_i^{t+1} / \partial y_j^t \equiv 0$ or not defines the topology of the network.
+
+	Specifying a parametric form for $f_i(\cdot)$ (power, exponential, Michaelis-Menten, etc.) entails a large number of parameters and may be feasible only for large $T$.  Misspecification of the shape may yield a spurious estimate of the network topology.
+
+	\textbf{\textcolor{blue}{A flexible way of including unknown non-linearities is to use a semi-parametric specification by letting the interactions be described by spline functions.}} 
+\end{textblock}
+
+\begin{textblock}{7}(0,7)
+	\LHead{Methods}
+
+	We use a flexible, non-parametric setting for the mean level,
+	\begin{gather*}
+		\eta_g^t = f_{g1}(y^{t-1}_{1})+  f_{g2}(y^{t-1}_{2}) + \dots +  f_{gG}(y^{t-1}_{G}) + \mu_g  \; ,
+		\shortintertext{where}
+		f_{gi}(y_i) = \sum_{k=1}^M \beta_{ik}^g B_{ik}(y_i) \; .
+	\end{gather*}
+	Here, $\mu_g$ is the unit-specific constant term,  $M= r + l$, where $l$ is the degree of the spline with $M$ basis functions $B_{ik}(y_i)$ defined over the set, $\bl \kappa_i$, of $r$ evenly spaced knots
+
+	Stacking the bases and the coefficients into $ X^t =\set{X_1^t, \dots, X_G^t} \in \Real^{MG}$ and $\bl \beta_g = \set{\bl \beta_{1g}, \dots, \bl \beta_{Gg}} \in \Real^{MG}$, respectively, we can express the model as $y_{g}^{t+1} = \mu_g +  X^t \bl{\beta}_g + \varepsilon_{g}^t$ and after further stacking the equation*s over time we have,
+	\begin{equation*}
+		\bl y_g = \bl \mu_ g + \mathcal X \; \bl \beta_g + \bl \varepsilon_g  \; , \qquad g =1, \dots, G \; .
+	\end{equation*}
+
+	\vspace*{3in}
+
+
+
+	\Subhead{A parametric alternative}
+
+	In order to compare the network retrieval power of the splines model, we entertain a fully parametric, linear AR(1) alternative
+	\begin{equation*}
+		y_g^{t+1} = \mu_g + \sum_{j=1}^G \beta_{jg} y_j^t + \varepsilon_g^t .
+	\end{equation*}
+\end{textblock}
+
+
+\begin{textblock}{7}(0,20)
+
+	\LHead{Usual checks}
+
+	We performed two \emph{in silico} experiments with $G= 16$, $T= 40$, and $\rho  \approx 0.1$. One with only linear and the second with a number of non-linear (S-shaped) relations.
+
+	\begin{center}
+		\includegraphics[width=15cm,height=12cm]{rwalk} \qquad
+		\includegraphics[width=15cm,height=12cm]{rwalk}%
+	\end{center}
+
+\end{textblock}
+
+
+%________ Right hand side ____________________________________
+\begin{textblock}{7}(8,2.5)
+
+	To further understand the differences in fit, we analysed the reconstruction of unit 8's trace.  \\[3cm]
+
+	\begin{center}
+		\includegraphics[width=30cm,height=20cm]{rwalk}
+	\end{center}
+
+\end{textblock}
+
+
+\begin{textblock}{7}(8,10)
+
+	\LHead{Microarray data}
+
+	The data are a subset of a time series of gene expression profiles of \emph{Arabidopsis} leaves generated using microarrays. The same (numbered) leaf is sampled at each time point, which means it is not possible to monitor the same plant over the entire time series. Hence at each of the 24 time points (every 2 hrs for 48 hrs), gene expression profiles were measured in leaf 7 of 4 distinct plants grown in identical conditions.
+	\vspace*{1.5cm}
+
+	\begin{center}
+		\includegraphics[width=29cm,height=25cm]{rwalk}
+	\end{center}
+
+\end{textblock}
+
+\begin{textblock}{7}(8,18.5)
+
+	\LHead{Conclusions}
+
+	\textcolor{red}{We present a fully Bayesian implementation of $P$-spline regression based inference of a dynamic Bayesian network within a sparse network context. Our main application is in the inference of a  from longitudinal data, for instance from microarray time series data.} \\[0.5cm]
+
+	\textcolor{DarkBlue}{We addressed the $p \gg n$ issue through use of spike-and-slab priors that, by penalisation implicit in model complexity, limits the connectivity of the   This enables us to increase regression model complexity, providing methods for exploring whether nonlinear regulatory mechanisms are present in time series data.  Further, the inclusion of kinship indicators provides the basis of network topology inference.} \\[0.5cm]
+
+	We developed a fully Bayesian approach implemented in a (parallelised)  algorithm, and provide appropriate priors such that posterior propriety holds. \\[0.5cm]
+
+	\textcolor{red}{We found that nonlinear interactions could be successfully identified on simulated data (both discrete time and ODE models), the corresponding inferred  under a linear model typically acquiring additional parents, these incorrectly predicted parents improving the fit to a similar quality to that achieved by the $P$-splines model.}
+
+
+\end{textblock}
+
+
+
+\end{document}

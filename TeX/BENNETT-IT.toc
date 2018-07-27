@@ -1,0 +1,122 @@
+\select@language {british}
+\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}
+\contentsline {section}{\numberline {1.1}Phase III Oncology Clinical Trials Design}{2}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Design}{2}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Endpoints}{3}{subsection.1.1.2}
+\contentsline {section}{\numberline {1.2}Treatment Switching}{3}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Patterns of switching}{4}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}What is the impact on analysis}{5}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}What is a true treatment effect?}{8}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}How does treatment switching affect interpretation?}{8}{subsection.1.2.4}
+\contentsline {section}{\numberline {1.3}Use of simulation studies}{10}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Correlation between endpoints}{11}{subsection.1.3.1}
+\contentsline {chapter}{\numberline {2}Proposed Analysis Approaches}{13}{chapter.2}
+\contentsline {section}{\numberline {2.1}Simple approaches}{13}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Intention-To-Treat (ITT) analysis}{13}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Per-protocol analysis}{14}{subsection.2.1.2}
+\contentsline {subsubsection}{Censoring at Crossover}{14}{section*.7}
+\contentsline {subsubsection}{Excluding Switchers}{14}{section*.8}
+\contentsline {subsection}{\numberline {2.1.3}Time-dependent Cox proportional hazards model}{14}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}Inverse Probability of censoring Weights (IPCW)}{15}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Model for censoring}{15}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Estimating the weights}{16}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Model requirements}{16}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Estimating a corrected Hazard Ratio}{17}{subsection.2.2.4}
+\contentsline {section}{\numberline {2.3}Rank Preserving Structural Failure Time (RPSFT) models}{17}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}The RPSFT model}{18}{subsection.2.3.1}
+\contentsline {subsubsection}{Model assumptions}{19}{section*.9}
+\contentsline {subsection}{\numberline {2.3.2}Model fitting}{19}{subsection.2.3.2}
+\contentsline {subsubsection}{Choice of test}{20}{section*.11}
+\contentsline {subsubsection}{Issues with estimation}{20}{section*.12}
+\contentsline {subsubsection}{Handling Censored Data}{21}{section*.13}
+\contentsline {subsection}{\numberline {2.3.3}The one-parameter model}{22}{subsection.2.3.3}
+\contentsline {subsubsection}{``on treatment'' approach}{23}{section*.14}
+\contentsline {subsubsection}{``treatment group'' approach}{23}{section*.15}
+\contentsline {subsubsection}{Interpretation of the one-parameter model}{23}{section*.16}
+\contentsline {subsection}{\numberline {2.3.4}A two-parameter model}{24}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}Estimating a corrected Hazard Ratio}{25}{subsection.2.3.5}
+\contentsline {section}{\numberline {2.4}Iterative Parameter Estimation (IPE)}{26}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Parameter estimation}{27}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Handling Censored Data}{27}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Estimating a corrected Hazard Ratio}{28}{subsection.2.4.3}
+\contentsline {section}{\numberline {2.5}Two Stage Accelerated Failure Time (AFT) model }{28}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Estimating counterfactual survival}{29}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Handling Censored Data}{29}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.3}Estimating a corrected Hazard Ratio}{30}{subsection.2.5.3}
+\contentsline {section}{\numberline {2.6}Summary}{30}{section.2.6}
+\contentsline {chapter}{\numberline {3}Simulation Study Design and Methods}{31}{chapter.3}
+\contentsline {section}{\numberline {3.1}Simulation framework}{31}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Entry and exit times}{31}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Underlying Survival Times}{31}{subsection.3.1.2}
+\contentsline {subsubsection}{Correlation between TTP and OS}{32}{section*.18}
+\contentsline {subsection}{\numberline {3.1.3}Switching mechanism}{34}{subsection.3.1.3}
+\contentsline {subsubsection}{Implications for prognosis of switch population}{35}{section*.21}
+\contentsline {subsection}{\numberline {3.1.4}Prognostic covariates}{35}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {3.1.5}Adjusting survival times for treatment received}{36}{subsection.3.1.5}
+\contentsline {subsection}{\numberline {3.1.6}Summary of simulation parameters}{37}{subsection.3.1.6}
+\contentsline {section}{\numberline {3.2}Method to simulate correlated survival times incorporating treatment effect}{39}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Simulating Time to Progression (TTP)}{39}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Hazard function for Overall Survival}{40}{subsection.3.2.2}
+\contentsline {subsubsection}{Simulating Overall Survival (OS) for non switch control patients}{41}{section*.25}
+\contentsline {subsubsection}{Simulating Overall Survival (OS) for experimental arm patients}{41}{section*.26}
+\contentsline {subsubsection}{Simulating Overall Survival (OS) for control arm patients who switch}{42}{section*.27}
+\contentsline {section}{\numberline {3.3}Summary}{42}{section.3.3}
+\contentsline {chapter}{\numberline {4}Simulation Study 1}{44}{chapter.4}
+\contentsline {section}{\numberline {4.1}Scenarios Assessed}{44}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Summary of Simulation Parameters}{44}{subsection.4.1.1}
+\contentsline {section}{\numberline {4.2}Methods assessed}{45}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Simple methods}{45}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Complex Methods}{46}{subsection.4.2.2}
+\contentsline {subsubsection}{modified Iterative Parameter Estimation (MIPE)}{46}{section*.30}
+\contentsline {subsection}{\numberline {4.2.3}Two-stage AFT}{46}{subsection.4.2.3}
+\contentsline {subsubsection}{Rank preserving-structural failure time (RPSFT) models}{46}{section*.31}
+\contentsline {subsubsection}{Convergence of complex methods}{47}{section*.33}
+\contentsline {section}{\numberline {4.3}Results}{47}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Bias}{48}{subsection.4.3.1}
+\contentsline {subsubsection}{Simple methods}{48}{section*.35}
+\contentsline {subsubsection}{Complex methods}{49}{section*.37}
+\contentsline {subsection}{\numberline {4.3.2}Coverage}{54}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Convergence}{57}{subsection.4.3.3}
+\contentsline {section}{\numberline {4.4}Conclusion from simulation study 1}{59}{section.4.4}
+\contentsline {chapter}{\numberline {5}Simulation Study 2}{60}{chapter.5}
+\contentsline {section}{\numberline {5.1}Study design}{60}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Rationale for scenarios}{60}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Defining a true hazard ratio}{61}{subsection.5.1.2}
+\contentsline {section}{\numberline {5.2}Methods assessed}{62}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Issues with g-estimation}{63}{subsection.5.2.1}
+\contentsline {section}{\numberline {5.3}Results}{65}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Convergence}{66}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Bias}{68}{subsection.5.3.2}
+\contentsline {subsubsection}{Simple methods}{68}{section*.49}
+\contentsline {subsubsection}{Complex methods}{70}{section*.51}
+\contentsline {subsection}{\numberline {5.3.3}Coverage}{75}{subsection.5.3.3}
+\contentsline {section}{\numberline {5.4}Conclusions of Simulation Study 2}{78}{section.5.4}
+\contentsline {chapter}{\numberline {6}Conclusion}{79}{chapter.6}
+\contentsline {section}{\numberline {6.1}Results of the simulation study}{79}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Bias of the simple methods}{80}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Performance of the RPSFT}{81}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Performance of the MIPE}{82}{subsection.6.1.3}
+\contentsline {subsection}{\numberline {6.1.4}Performance of the Two-stage AFT}{82}{subsection.6.1.4}
+\contentsline {section}{\numberline {6.2}Limitations of this study}{83}{section.6.2}
+\contentsline {section}{\numberline {6.3}Conclusion}{83}{section.6.3}
+\contentsline {chapter}{References}{92}{chapter*.59}
+\contentsline {chapter}{\numberline {A}Additional plots for all simulations}{93}{appendix.A}
+\contentsline {chapter}{\numberline {B}Selected R code}{98}{appendix.B}
+\contentsline {section}{\numberline {B.1}Methods}{98}{section.B.1}
+\contentsline {subsection}{\numberline {B.1.1}Sample data}{98}{subsection.B.1.1}
+\contentsline {subsection}{\numberline {B.1.2}Rank Preserving Structural Failure Time}{98}{subsection.B.1.2}
+\contentsline {subsubsection}{Function RPSFT.2pass}{99}{section*.64}
+\contentsline {paragraph}{Function RPSFT}{100}{section*.65}
+\contentsline {paragraph}{Function RPSFT.trypsi}{100}{section*.66}
+\contentsline {paragraph}{Function RPSFT.latent}{100}{section*.67}
+\contentsline {subsubsection}{Function RPSFT.cox}{101}{section*.68}
+\contentsline {section}{\numberline {B.2}Code to Simulate data}{102}{section.B.2}
+\contentsline {chapter}{\numberline {C}Simulating weibull survival times with two time dependent covariates}{105}{appendix.C}
+\contentsline {section}{\numberline {C.1}Background}{105}{section.C.1}
+\contentsline {section}{\numberline {C.2}Derivation of cumulative hazard function}{106}{section.C.2}
+\contentsline {section}{\numberline {C.3}Derivation of Inverse Cumulative hazard function}{107}{section.C.3}
+\contentsline {section}{\numberline {C.4}Function to simulate survival data}{109}{section.C.4}
+\contentsline {chapter}{\numberline {D}Additional results of Simulation Study 1}{111}{appendix.D}
+\contentsline {section}{\numberline {D.1}Complete results for Simulation Study 1}{114}{section.D.1}
+\contentsline {chapter}{\numberline {E}Additional results of Simulation Study 2}{133}{appendix.E}
+\contentsline {chapter}{\numberline {F}Poster}{171}{appendix.F}

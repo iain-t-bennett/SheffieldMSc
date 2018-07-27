@@ -1,0 +1,95 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Phase III Oncology Clinical Trials Design}{chapter.1}% 2
+\BOOKMARK [2][-]{subsection.1.1.1}{Design}{section.1.1}% 3
+\BOOKMARK [2][-]{subsection.1.1.2}{Endpoints}{section.1.1}% 4
+\BOOKMARK [1][-]{section.1.2}{Treatment Switching}{chapter.1}% 5
+\BOOKMARK [2][-]{subsection.1.2.1}{Patterns of switching}{section.1.2}% 6
+\BOOKMARK [2][-]{subsection.1.2.2}{What is the impact on analysis}{section.1.2}% 7
+\BOOKMARK [2][-]{subsection.1.2.3}{What is a true treatment effect?}{section.1.2}% 8
+\BOOKMARK [2][-]{subsection.1.2.4}{How does treatment switching affect interpretation?}{section.1.2}% 9
+\BOOKMARK [1][-]{section.1.3}{Use of simulation studies}{chapter.1}% 10
+\BOOKMARK [2][-]{subsection.1.3.1}{Correlation between endpoints}{section.1.3}% 11
+\BOOKMARK [0][-]{chapter.2}{Proposed Analysis Approaches}{}% 12
+\BOOKMARK [1][-]{section.2.1}{Simple approaches}{chapter.2}% 13
+\BOOKMARK [2][-]{subsection.2.1.1}{Intention-To-Treat \(ITT\) analysis}{section.2.1}% 14
+\BOOKMARK [2][-]{subsection.2.1.2}{Per-protocol analysis}{section.2.1}% 15
+\BOOKMARK [2][-]{subsection.2.1.3}{Time-dependent Cox proportional hazards model}{section.2.1}% 16
+\BOOKMARK [1][-]{section.2.2}{Inverse Probability of censoring Weights \(IPCW\)}{chapter.2}% 17
+\BOOKMARK [2][-]{subsection.2.2.1}{Model for censoring}{section.2.2}% 18
+\BOOKMARK [2][-]{subsection.2.2.2}{Estimating the weights}{section.2.2}% 19
+\BOOKMARK [2][-]{subsection.2.2.3}{Model requirements}{section.2.2}% 20
+\BOOKMARK [2][-]{subsection.2.2.4}{Estimating a corrected Hazard Ratio}{section.2.2}% 21
+\BOOKMARK [1][-]{section.2.3}{Rank Preserving Structural Failure Time \(RPSFT\) models}{chapter.2}% 22
+\BOOKMARK [2][-]{subsection.2.3.1}{The RPSFT model}{section.2.3}% 23
+\BOOKMARK [2][-]{subsection.2.3.2}{Model fitting}{section.2.3}% 24
+\BOOKMARK [2][-]{subsection.2.3.3}{The one-parameter model}{section.2.3}% 25
+\BOOKMARK [2][-]{subsection.2.3.4}{A two-parameter model}{section.2.3}% 26
+\BOOKMARK [2][-]{subsection.2.3.5}{Estimating a corrected Hazard Ratio}{section.2.3}% 27
+\BOOKMARK [1][-]{section.2.4}{Iterative Parameter Estimation \(IPE\)}{chapter.2}% 28
+\BOOKMARK [2][-]{subsection.2.4.1}{Parameter estimation}{section.2.4}% 29
+\BOOKMARK [2][-]{subsection.2.4.2}{Handling Censored Data}{section.2.4}% 30
+\BOOKMARK [2][-]{subsection.2.4.3}{Estimating a corrected Hazard Ratio}{section.2.4}% 31
+\BOOKMARK [1][-]{section.2.5}{Two Stage Accelerated Failure Time \(AFT\) model }{chapter.2}% 32
+\BOOKMARK [2][-]{subsection.2.5.1}{Estimating counterfactual survival}{section.2.5}% 33
+\BOOKMARK [2][-]{subsection.2.5.2}{Handling Censored Data}{section.2.5}% 34
+\BOOKMARK [2][-]{subsection.2.5.3}{Estimating a corrected Hazard Ratio}{section.2.5}% 35
+\BOOKMARK [1][-]{section.2.6}{Summary}{chapter.2}% 36
+\BOOKMARK [0][-]{chapter.3}{Simulation Study Design and Methods}{}% 37
+\BOOKMARK [1][-]{section.3.1}{Simulation framework}{chapter.3}% 38
+\BOOKMARK [2][-]{subsection.3.1.1}{Entry and exit times}{section.3.1}% 39
+\BOOKMARK [2][-]{subsection.3.1.2}{Underlying Survival Times}{section.3.1}% 40
+\BOOKMARK [2][-]{subsection.3.1.3}{Switching mechanism}{section.3.1}% 41
+\BOOKMARK [2][-]{subsection.3.1.4}{Prognostic covariates}{section.3.1}% 42
+\BOOKMARK [2][-]{subsection.3.1.5}{Adjusting survival times for treatment received}{section.3.1}% 43
+\BOOKMARK [2][-]{subsection.3.1.6}{Summary of simulation parameters}{section.3.1}% 44
+\BOOKMARK [1][-]{section.3.2}{Method to simulate correlated survival times incorporating treatment effect}{chapter.3}% 45
+\BOOKMARK [2][-]{subsection.3.2.1}{Simulating Time to Progression \(TTP\)}{section.3.2}% 46
+\BOOKMARK [2][-]{subsection.3.2.2}{Hazard function for Overall Survival}{section.3.2}% 47
+\BOOKMARK [1][-]{section.3.3}{Summary}{chapter.3}% 48
+\BOOKMARK [0][-]{chapter.4}{Simulation Study 1}{}% 49
+\BOOKMARK [1][-]{section.4.1}{Scenarios Assessed}{chapter.4}% 50
+\BOOKMARK [2][-]{subsection.4.1.1}{Summary of Simulation Parameters}{section.4.1}% 51
+\BOOKMARK [1][-]{section.4.2}{Methods assessed}{chapter.4}% 52
+\BOOKMARK [2][-]{subsection.4.2.1}{Simple methods}{section.4.2}% 53
+\BOOKMARK [2][-]{subsection.4.2.2}{Complex Methods}{section.4.2}% 54
+\BOOKMARK [2][-]{subsection.4.2.3}{Two-stage AFT}{section.4.2}% 55
+\BOOKMARK [1][-]{section.4.3}{Results}{chapter.4}% 56
+\BOOKMARK [2][-]{subsection.4.3.1}{Bias}{section.4.3}% 57
+\BOOKMARK [2][-]{subsection.4.3.2}{Coverage}{section.4.3}% 58
+\BOOKMARK [2][-]{subsection.4.3.3}{Convergence}{section.4.3}% 59
+\BOOKMARK [1][-]{section.4.4}{Conclusion from simulation study 1}{chapter.4}% 60
+\BOOKMARK [0][-]{chapter.5}{Simulation Study 2}{}% 61
+\BOOKMARK [1][-]{section.5.1}{Study design}{chapter.5}% 62
+\BOOKMARK [2][-]{subsection.5.1.1}{Rationale for scenarios}{section.5.1}% 63
+\BOOKMARK [2][-]{subsection.5.1.2}{Defining a true hazard ratio}{section.5.1}% 64
+\BOOKMARK [1][-]{section.5.2}{Methods assessed}{chapter.5}% 65
+\BOOKMARK [2][-]{subsection.5.2.1}{Issues with g-estimation}{section.5.2}% 66
+\BOOKMARK [1][-]{section.5.3}{Results}{chapter.5}% 67
+\BOOKMARK [2][-]{subsection.5.3.1}{Convergence}{section.5.3}% 68
+\BOOKMARK [2][-]{subsection.5.3.2}{Bias}{section.5.3}% 69
+\BOOKMARK [2][-]{subsection.5.3.3}{Coverage}{section.5.3}% 70
+\BOOKMARK [1][-]{section.5.4}{Conclusions of Simulation Study 2}{chapter.5}% 71
+\BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 72
+\BOOKMARK [1][-]{section.6.1}{Results of the simulation study}{chapter.6}% 73
+\BOOKMARK [2][-]{subsection.6.1.1}{Bias of the simple methods}{section.6.1}% 74
+\BOOKMARK [2][-]{subsection.6.1.2}{Performance of the RPSFT}{section.6.1}% 75
+\BOOKMARK [2][-]{subsection.6.1.3}{Performance of the MIPE}{section.6.1}% 76
+\BOOKMARK [2][-]{subsection.6.1.4}{Performance of the Two-stage AFT}{section.6.1}% 77
+\BOOKMARK [1][-]{section.6.2}{Limitations of this study}{chapter.6}% 78
+\BOOKMARK [1][-]{section.6.3}{Conclusion}{chapter.6}% 79
+\BOOKMARK [0][-]{chapter*.59}{References}{}% 80
+\BOOKMARK [0][-]{appendix.A}{Additional plots for all simulations}{}% 81
+\BOOKMARK [0][-]{appendix.B}{Selected R code}{}% 82
+\BOOKMARK [1][-]{section.B.1}{Methods}{appendix.B}% 83
+\BOOKMARK [2][-]{subsection.B.1.1}{Sample data}{section.B.1}% 84
+\BOOKMARK [2][-]{subsection.B.1.2}{Rank Preserving Structural Failure Time}{section.B.1}% 85
+\BOOKMARK [1][-]{section.B.2}{Code to Simulate data}{appendix.B}% 86
+\BOOKMARK [0][-]{appendix.C}{Simulating weibull survival times with two time dependent covariates}{}% 87
+\BOOKMARK [1][-]{section.C.1}{Background}{appendix.C}% 88
+\BOOKMARK [1][-]{section.C.2}{Derivation of cumulative hazard function}{appendix.C}% 89
+\BOOKMARK [1][-]{section.C.3}{Derivation of Inverse Cumulative hazard function}{appendix.C}% 90
+\BOOKMARK [1][-]{section.C.4}{Function to simulate survival data}{appendix.C}% 91
+\BOOKMARK [0][-]{appendix.D}{Additional results of Simulation Study 1}{}% 92
+\BOOKMARK [1][-]{section.D.1}{Complete results for Simulation Study 1}{appendix.D}% 93
+\BOOKMARK [0][-]{appendix.E}{Additional results of Simulation Study 2}{}% 94
+\BOOKMARK [0][-]{appendix.F}{Poster}{}% 95

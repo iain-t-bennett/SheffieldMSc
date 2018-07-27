@@ -1,0 +1,128 @@
+\documentclass[12pt,a4paper,twoside]{report}
+\usepackage[sort]{natbib}
+\usepackage[british]{babel}
+\usepackage{url}
+\usepackage[pdftex]{graphicx}
+\usepackage{float}
+\usepackage[svgnames,fixpdftex]{xcolor}
+\usepackage[colorlinks = true,linkcolor = Purple,urlcolor  = MidnightBlue,citecolor = blue, anchorcolor =blue]{hyperref}
+% \usepackage{hyperref}
+\usepackage[T1]{fontenc}
+% \usepackage{amsfonts, amsthm, amssymb}
+\usepackage{verbatim}
+% \usepackage[utopia,cal=cmcal]{mathdesign}
+\usepackage{fancyhdr}
+\usepackage{subcaption}
+\usepackage{setspace}
+\usepackage{mathtools}
+\usepackage{amssymb}
+\usepackage[pdftex,left=3cm+7pt,right=3cm-5pt,top=3.5cm,bottom=3.5cm]{geometry}
+\usepackage[amsmath,thmmarks]{ntheorem}
+%IB added packages
+\usepackage{multirow}
+\usepackage{fancyvrb}
+\usepackage{pdfpages}
+\usepackage{rotating}
+
+\renewcommand{\rmdefault}{put}
+\newcommand{\helv}{\fontfamily{phv}\fontshape{n} \selectfont}
+\newcommand{\ava}{\fontfamily{pag}\selectfont}
+\renewcommand{\bibname}{References}
+
+\setlength{\theorempreskipamount}{3.0ex plus 1ex minus 0.75ex}
+\setlength{\theorempostskipamount}{3.0ex plus 1ex minus 0.75ex}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{exa}{Example}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+
+\theorembodyfont{\helv} \theoremstyle{plain}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{assumption}[theorem]{Assumption}
+\newtheorem{conjecture}[theorem]{Conjecture}
+
+\DeclarePairedDelimiter{\abs}{\lvert}{\rvert} 
+\DeclarePairedDelimiter{\norm}{\lVert}{\rVert}
+\DeclarePairedDelimiterX{\set}[1]\{\}{#1}
+\DeclarePairedDelimiterX\paden[3](){\nonscript #1 \,\delimsize\vert \,\nonscript \mathopen{}#2,#3}
+\DeclarePairedDelimiterX\papro[2][]{\nonscript #1\,\delimsize\vert\,\nonscript \mathopen{}#2}
+\DeclareMathOperator{\E}{\mathbb E} \DeclareMathOperator{\var}{\mathbb V}
+\DeclareMathOperator{\p}{P}
+
+\newcommand{\D}{\mathrm{d}}
+\newcommand{\dlm}{\textsc{dlm}}
+% \newcommand{\E}{\mathrm{e}}
+\newcommand{\Real}{\mathbb{R}}
+\newcommand{\nor}[3][x]{\ensuremath{\mathrm N \paden*{#1}{#2}{#3}}}
+\newcommand{\cp}[2]{\ensuremath{\p\papro*{#1}{#2}}}
+
+\onehalfspace
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\renewcommand{\bibname}{References}
+
+\include{ThesisFrontPage}
+\pagenumbering{roman}
+
+\include{ThesisAbstract}
+
+\include{ThesisAcknowledgements}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\text{}\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setcounter{tocdepth}{2}
+\tableofcontents
+%\newpage
+\setlength{\parskip}{0.75ex plus0.1ex minus0.2ex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setcounter{page}{1}
+\pagenumbering{arabic}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\fancyhead{}
+\fancyfoot{}
+\pagestyle{fancy} 
+\fancyhead[RO,LE]{\sffamily\small \thepage}
+\fancyhead[LO,RE]{\sffamily\small \nouppercase{\rightmark}}
+
+\setlength{\headheight}{14pt} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\include{chap_intro}
+\include{chap_methrev}
+\include{chap_sim_design}
+\include{chap_sim2}
+\include{chap_sim3}
+\include{chap_con}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage
+
+\bibliography{References}
+\addcontentsline{toc}{chapter}{References}
+\bibliographystyle{somas}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage
+\appendix
+
+\include{app_allres}
+\include{app_R}
+\include{app_genweib}
+\include{app_sim2res}
+\include{app_sim3res}
+
+\chapter{Poster}
+This Appendix contains as required the poster submitted for assessment. As several simulations were performed prior to selecting which scenarios to include into this dissertation the results reported in the poster are not completely matching with the scenarios reported here.
+\includepdf[pages=-, width=\textwidth,height=\textheight,pagecommand={}]{images/app_poster.pdf}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}

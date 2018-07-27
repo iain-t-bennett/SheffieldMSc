@@ -1,0 +1,88 @@
+\chapter{Conclusion}
+\label{CHAP:conclusions}
+
+In this dissertation I have focussed on the problem of estimating a corrected\footnote{As discussed in the Section \ref{S:chap_intro:whatest} by this I mean the effect that would have been observed in the absence of treatment switching.} hazard ratio for a comparison of an experimental treatment with a control treatment in the presence of treatment switching. In Chapter \ref{CHAP:methods} I introduced the key methods that have been proposed to attempt to do this while in Chapter \ref{C:chap_sim_design} I describe a simulation study designed to test the performance of these methods when a correlation between time to progression and overall survival exists. 
+
+\section{Results of the simulation study}
+
+In total across the simulations in Chapter \ref{C:chap_sim2} and Chapter \ref{C:chap_sim3} 21 basis scenarios were considered as shown in Table \ref{T:chap_con:scenarios}. Of these 13 had treatment effects which, in the absence of switching, would satisfy the proportional hazards assumption underlying Cox regression. In the remaining 8 the treatment effects in the absence of switching do not meet the proportional hazards assumption but instead are potentially more realistic as they represent a treatment that either only reduces the risk of death during exposure or has a reduced residual effect after treatment stops. For these scenarios as no truth exists what is being estimated is an average hazard ratio for the duration of the trial. Finally for each of these 21 basis scenarios the correlation between time to progression and overall survival ($\rho$) was varied from 0 meaning no correlation to 1 meaning perfect correlation across 6 levels leading to 126 scenarios. It should be noted that while I simulate scenarios with no correlation and perfect correlation these are extreme scenarios and based on the review of \cite{Ciani2014} discussed in Section \ref{S:chap_intro:correlation} only results for scenarios with correlation between 0.4 and 0.8 can be considered realistic and are presented in Appendix \ref{A:allres} and will be discussed here.
+
+\begin{table}
+\caption{Basis scenario descriptions\label{T:chap_con:scenarios}}
+\begin{tabular}{lll}
+\hline
+\hline
+Basis    & Simulation  & Description  \\ 
+Scenario & Study       &        \\
+  \hline
+ 1 & Study 1 & True Hazard Ratio: 0.7, Proportion switch: 20\% \\ 
+ 2 & Study 1 & True Hazard Ratio: 0.7, Proportion switch: 40\% \\ 
+ 3 & Study 1 &  True Hazard Ratio: 0.7, Proportion switch: 60\% \\ 
+ 4 & Study 1 & True Hazard Ratio: 0.9, Proportion switch: 20\% \\ 
+ 5 & Study 1 & True Hazard Ratio: 0.9, Proportion switch: 40\% \\
+ 6 & Study 1 & True Hazard Ratio: 0.9, Proportion switch: 60\% \\ 
+ 7 & Study 1 & True Hazard Ratio: 1, Proportion switch: 20\% \\ 
+ 8 & Study 1 & True Hazard Ratio: 1, Proportion switch: 40\% \\ 
+ 9 & Study 1 &  True Hazard Ratio: 1, Proportion switch: 60\% \\ 
+ \hline
+ 10  & Study 2 & Scenario 1, Proportion switch: 40\% \\ 
+ 11  & Study 2 & Scenario 1, Proportion switch: 60\% \\ 
+ 12  & Study 2 & Scenario 2, Proportion switch: 40\% \\ 
+ 13  & Study 2 & Scenario 2, Proportion switch: 60\% \\ 
+ 14 & Study 2 & Scenario 3, Proportion switch: 40\% \\ 
+ 15 & Study 2 & Scenario 3, Proportion switch: 60\% \\ 
+ 16 & Study 2 & Scenario 4, Proportion switch: 40\% \\ 
+ 17  & Study 2 & Scenario 4, Proportion switch: 60\% \\ 
+ 18  & Study 2 & Scenario 5, Proportion switch: 40\% \\ 
+ 19  & Study 2 & Scenario 5, Proportion switch: 60\% \\ 
+ 20  & Study 2 & Scenario 6, Proportion switch: 40\% \\ 
+ 21  & Study 2 & Scenario 6, Proportion switch: 60\% \\ 
+\hline
+\end{tabular}
+\end{table}
+
+
+\subsection{Bias of the simple methods}
+
+With regards to the bias of the simple methods my findings align closely with \cite{Morden2011}, \cite{Latimer2013} and \cite{Latimer2016}. Similar to these published studies, though assessing different outcomes, I found that all of the simple methods perform badly when the correlation between time to progression and overall survival is at a realistic level. This can be seen in Figure \ref{F:allp:simple}. The main difference between my findings and the prior simulations is that in this study this bias was observed without making any assumptions on the prognosis of switchers vs non-switchers. This is important as it avoids what \cite{Slaets2013} describe as the ``Can of worms'' of making judgements on how selective switching is.
+
+\subsection{Performance of the RPSFT}
+
+In Chapter \ref{CHAP:methods} I discussed that there were a selection of choices to be made when using the RPSFT method including choice of test for g-estimation, the choice of ``treatment group'' or ``on treatment'' model and whether hazard ratios are estimated from a comparison of observed and latent survival times or from a comparison of counterfactual and latent survival times. 
+
+With reference to Figure \ref{F:allp:rpsft} it is clear that the the choice of test has minimal effect in these simulations as does the choice on how to estimate a corrected hazard ratio. With regards to the choice of ``treatment group'' vs ``on treatment'' across many of the simulations the choice also has negligible impact. In basis scenarios 1-9 the ``treatment group'' approach has lower bias where the data is generated consistently with this assumption. Surprisingly this is also the case with basis scenarios 10-17 where the true treatment effect was simulated to apply either only or with greater effect during treatment. In fact the only scenarios where the ``on treatment'' approach has lower bias is in basis scenarios 18-21 where the switch treatment had lower effect violating the common treatment effect assumption. Given this and the issues with convergence of the ``on treatment'' approach as discussed in Section \ref{S:chap_sim3:gest} it seems reasonable to in general use the ``treatment group'' approach as a main analysis with the ``on treatment'' considered a sensitivity if it converges. 
+
+
+While the bias is acceptable across the majority of scenarios it can be seen that scenarios 15, 17 and 21 all show high levels of bias. Though for 15 and 17 still much lower than observed with the ITT analysis. These are all scenarios with a high degree of switching (60\% of control patients switch) and with switch effect that is potentially different between randomized patients and switch patients. This result is consistent with \cite{Latimer2013} and \cite{Latimer2016} where violations of the common treatment effect were found to increase the bias of the RPSFT approach. 
+
+\subsection{Performance of the MIPE}
+
+The biggest surprise with this simulation study has been the poor performance of the modified IPE method described in Section \ref{S:chap_methrev:MIPE}. As can be seen in Figure \ref{F:allp:mipe} across a large number of scenarios investigated the bias is considerably larger than that from the RPSFT methods with no predictable pattern. In addition the convergence of this method was generally much lower than the RPSFT. This is quite different to the findings of \cite{Morden2011}, \cite{Latimer2013} and \cite{Latimer2016} who generally found it to have comparable or better performance than the RPSFT. It is unclear what the cause of these differences are though a few differences between the simulations exist:
+\begin{enumerate}
+\item The datasets simulated have far greater censoring of overall survival. As can be seen in the sample curves presented in Figure \ref{F:chap_sim_design:exampleKM} compared to the 21\% administrative censoring reported by e.g. \cite{Latimer2013}. 
+\item The application of treatment effects is different with \cite{Morden2011} applying treatment as a causal acceleration factor, while I apply a reduction in hazard.
+\end{enumerate}
+Finally despite the change in name it seems unlikely there are differences in methodology as the modification to the censoring algorithm described by \cite{Zhang2016} for the modified IPE matches to the censoring approach described by \cite{Latimer2016}. 
+Further investigation of this method is needed to understand under which scenarios the IPE does perform well though given the additional parametric assumptions it is hard to see the benefits of this method compared to the RPSFT approach. 
+
+\subsection{Performance of the Two-stage AFT}
+
+Figure \ref{F:allp:saft} shows that similarly to the findings of \cite{Latimer2013} and \cite{Latimer2016} the simple two stage approach has very low bias across the majority of scenarios. However, even this method exhibited important bias of greater than 10\% in Scenario 14 and 15. These are scenarios where the treatment effect only yielded a reduction in the hazard of death during treatment with a reversion to baseline hazard after treatment stopped. Combined with the larger amounts of censoring in this simulation study compared to the 21\% censoring of \cite{Latimer2013} seems to lead to a situation where the two-stage AFT method is less robust than previously seen. Given the low bias across the remainder of the scenarios further investigation of this method seems warranted. As seen in Section \ref{S:chap_intro:pattern} the required pattern of switching only at progression is not uncommon within oncology trials.
+
+\section{Limitations of this study}
+
+As with all simulation studies only a finite number of scenarios can be investigated and by focusing on the impact of correlation between time to progression and overall survival the impact of prognostic covariates was ignored. While this is helpful in order to show that the simple methods are very biased without having to make any further assumptions on prognosis it is clearly unrealistic. The most important aspect that is missing from the simulation framework used here are time dependent prognostic covariates that jointly affect progression and survival. Given the complexity of deriving appropriate inverse hazard functions even for the simple scenarios here with only time dependent treatment covariates it is likely that numerical methods would have to employed to simulate such survival times. 
+
+The second major limitation which in many ways is a consequence of the first is that the IPCW method was not assessed in any of the scenarios. As this method requires the presence of time varying covariates to be applied it was not possible to be considered here. 
+
+The final major limitation is the choice of hazard ratio as the outcome of interest. While by far the most commonly reported measure of treatment effect in the survival analysis of clinical trials the use of Cox regression to estimate effects when the proportional hazards assumption is violated is also subject to bias.
+
+\section{Conclusion}
+
+This dissertation has investigated the impact on trial results assuming that treatment switching is an unavoidable aspect of oncology clinical trials when in reality it is a design choice. The simulations performed here suggest that when this design choice is made statistical modelling can attempt to provide a reasonable estimate of the treatment effect in the absence of switch. However, even the best performing methods (the two-stage AFT and the ``treatment group'' RPSFT) in at least one realistic scenario over estimated the treatment effect by greater than 10\% and the only design choice that will guarantee an unbiased estimate of overall survival treatment effect would be to forbid switching. However, as noted by \cite{Prasad2014} this is an ethical as well as technical decision. 
+\begin{quote}
+Ethically, benefits to participants should be maximized but should not compromise the scientific validity of a study. In an effort to offer the hope of benefit to ill participants in the control arm, oncology investigators often build in an option for participants who progress to cross over to the experimental arm. This carries the implicit assumption that the investigational agent is beneficial, subverting the concept of true clinical equipoise.
+\end{quote}
+Whether a moderate increase in uncertainty in the estimate of what may be a secondary endpoint of a clinical trial justifies preventing access to a potentially beneficial experimental therapy when no alternatives exist is a challenging ethical question. It should also be noted that even if the decision is made to forbid treatment switching until equipoise is disturbed at an interim analysis then these adjustment methods will still be required for later analyses as discussed in Section \ref{S:chap_intro:pattern}. 
+
+Regardless of the design decision made this study combined with evidence from prior simulations makes it clear that simple methods should be avoided and that two-stage AFT or RPSFT method should be considered alongside the ITT analysis when analysing trials where treatment switching has occurred if the aim is to estimate what the treatment effect would have been in the absence of switching. 

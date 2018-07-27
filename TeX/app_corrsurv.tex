@@ -1,0 +1,15 @@
+
+\chapter{A note on simulating correlated survival times}
+\label{APP:corr}
+First it can be noted that if one can define the inverse of the cumulative distribution function $F^{-1}(p), p\in [0,1]$ it is possible to simulate random numbers following an arbitrary distribution through generating uniform random numbers.
+
+For survival data \cite{Bender2005} note that if the inverse of the baseline hazard function $H(t)$ can be evaluated this can be used as $F^{-1}(p) = H^{-1}(-log(p))$. Modifications to this approach are be made to enable two correlated survival times to be generated given it is possible to generate arbitrarily correlated survival times with correlation $\rho$ through the following procedure based on Cholesky decomposition. 
+\begin{enumerate}
+\item Generate two independent standard normal random variables $X_0, X_1$ 
+\item Define $X_2 = \rho X_1 + \sqrt{1-\rho^2} X_0 $ so $X_1$ and $X_2$ are correlated standard normal random variables
+\item Define $U_i = \phi (X_i), i=1,2$ so $U_1$ and $U_2$ are correlated uniform random variables
+\item Define $T_i = H_i^{-1}(-log(U_i)), i=1,2$ where $H_1^{-1}(t)$ and $H_2^{-1}(t)$ are inverse hazard functions so $T_1$ and $T_2$ are correlated survival times.
+\end{enumerate}
+
+
+
